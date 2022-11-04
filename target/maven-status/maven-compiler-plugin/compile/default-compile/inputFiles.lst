@@ -1,0 +1,11 @@
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\exception\GlobalExceptionHandler.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\model\Movie.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\model\MovieRequest.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\service\MovieInfoService.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\service\MovieRequestValidator.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\exception\ErrorResponse.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\repository\MovieRepository.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\exception\IllegalRequestException.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\service\MovieMapper.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\MovieInfoApplication.java
+C:\Users\Кирилл\Desktop\Java\MovieInfo\src\main\java\application\controller\MovieInfoController.java
