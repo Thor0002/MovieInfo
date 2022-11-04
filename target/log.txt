@@ -26,3 +26,58 @@
 2022-11-04 16:26:33.259  INFO 19280 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2022-11-04 16:26:36.251  INFO 19280 --- [http-nio-8080-exec-1] a.service.MovieRequestValidator          : Validation of a request to add a movie: ( Iron Man Power type Pop 2022-08-15 
 2022-11-04 16:26:36.360  INFO 19280 --- [http-nio-8080-exec-1] application.service.MovieInfoService     : Save movie: ( Iron Man Power type Pop 2022-08-15 
+2022-11-04 17:04:38.321  INFO 21684 --- [main] application.MovieInfoApplication         : Starting MovieInfoApplication v1.0.0 using Java 15.0.1 on KIRILL with PID 21684 (C:\Users\Кирилл\Desktop\Java\MovieInfo\target\MovieInfo-1.0.0.jar started by Кирилл in C:\Users\Кирилл\Desktop\Java\MovieInfo\target)
+2022-11-04 17:04:38.329 DEBUG 21684 --- [main] application.MovieInfoApplication         : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-11-04 17:04:38.330  INFO 21684 --- [main] application.MovieInfoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 17:04:40.256  INFO 21684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 17:04:40.341  INFO 21684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2022-11-04 17:04:41.500  INFO 21684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 17:04:41.523  INFO 21684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 17:04:41.524  INFO 21684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-11-04 17:04:41.634  INFO 21684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 17:04:41.635  INFO 21684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3143 ms
+2022-11-04 17:04:41.860  INFO 21684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 17:04:42.314  INFO 21684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-04 17:04:42.345  INFO 21684 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:main'
+2022-11-04 17:04:42.695  INFO 21684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 17:04:42.773  INFO 21684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-11-04 17:04:43.031  INFO 21684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-04 17:04:43.200  INFO 21684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 17:04:44.032  INFO 21684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 17:04:44.046  INFO 21684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 17:04:44.834  WARN 21684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 17:04:46.924  INFO 21684 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-04 17:04:47.027  INFO 21684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 17:04:47.047  INFO 21684 --- [main] application.MovieInfoApplication         : Started MovieInfoApplication in 9.622 seconds (JVM running for 10.467)
+2022-11-04 17:04:50.991  INFO 21684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 17:04:50.995  INFO 21684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 17:04:50.998  INFO 21684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 17:04:52.087  INFO 21684 --- [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 394 ms
+2022-11-04 17:09:03.779  INFO 20224 --- [main] application.MovieInfoApplication         : Starting MovieInfoApplication v1.0.0 using Java 15.0.1 on KIRILL with PID 20224 (C:\Users\Кирилл\Desktop\Java\MovieInfo\target\MovieInfo-1.0.0.jar started by Кирилл in C:\Users\Кирилл\Desktop\Java\MovieInfo\target)
+2022-11-04 17:09:03.793 DEBUG 20224 --- [main] application.MovieInfoApplication         : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-11-04 17:09:03.794  INFO 20224 --- [main] application.MovieInfoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 17:09:06.014  INFO 20224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 17:09:06.123  INFO 20224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interfaces.
+2022-11-04 17:09:07.456  INFO 20224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 17:09:07.525  INFO 20224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 17:09:07.526  INFO 20224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-11-04 17:09:07.624  INFO 20224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 17:09:07.624  INFO 20224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3661 ms
+2022-11-04 17:09:08.010  INFO 20224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 17:09:08.841  INFO 20224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-04 17:09:08.861  INFO 20224 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:main'
+2022-11-04 17:09:09.394  INFO 20224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 17:09:09.475  INFO 20224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-11-04 17:09:09.729  INFO 20224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-04 17:09:09.958  INFO 20224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 17:09:10.757  INFO 20224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 17:09:10.768  INFO 20224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 17:09:11.652  WARN 20224 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 17:09:13.906  INFO 20224 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-04 17:09:13.997  INFO 20224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 17:09:14.015  INFO 20224 --- [main] application.MovieInfoApplication         : Started MovieInfoApplication in 11.103 seconds (JVM running for 11.928)
+2022-11-04 17:09:33.065  INFO 20224 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 17:09:33.065  INFO 20224 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 17:09:33.068  INFO 20224 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 17:09:43.373  INFO 20224 --- [http-nio-8080-exec-3] a.service.MovieRequestValidator          : Validation of a request to add a movie: ( Iron Man Power type Pop 2022-08-15 
+2022-11-04 17:09:43.480  INFO 20224 --- [http-nio-8080-exec-3] application.service.MovieInfoService     : Save movie: ( Iron Man Power type Pop 2022-08-15 
